@@ -17,8 +17,16 @@ public class Pair<T>
 
     public T getFirst()  { return first; }
     public T getSecond() { return second; }
+    public Integer getSum(){
+        if(first instanceof Integer && second instanceof Integer)
+            return (Integer) first +(Integer)second;
+        return 0;
+        }
 
     public String toString(){
-        
+        return "[" + this.first
+             + "," + this.second
+             + "]";
+
     }
 }
