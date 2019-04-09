@@ -21,7 +21,7 @@ in [UserSavedByCompiler](https://github.com/stuyvesant-cs/solutionsHolmes/blob/2
 
 - definition that a class / type that is parameterized by a generic type, `T`:
 ```
-your exemplifying line from the Pair example here
+public class Pair<T>
 ```
 in [class](URL)
 
