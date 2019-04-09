@@ -29,7 +29,7 @@ in [class](URL)
 - declaration of a variable that can hold a reference to an instance
 of such a class:
 ```
-your exemplifying line from the Pair example here
+Pair<Integer> nextPair = new Pair<Integer>( big, small)
 ```
 in [class](URL)
 
@@ -43,7 +43,7 @@ in [class](URL)
 
 - declaration of a method that returns an instance of such a type:
 ```
-your exemplifying line from the Pair example here
+public T getSecond() { return second; }
 ```
 in [class](URL)
 
@@ -58,7 +58,7 @@ in [class](URL)
 - *un*successful instantiation of an instance of such a class,
 caught by the compiler:
 ```
-your exemplifying line from the Pair example here
+Pair nextPair = new Pair( big, small);
 ```
 in [class](URL)
 
@@ -66,20 +66,20 @@ in [class](URL)
 - a variable that can hold a reference to an instance of the generic type
 in a class / type that is parameterized by a generic type:
 ```
-your exemplifying line from the Pair example here
+Integer big = somePair.getSum();
 ```
 in [class](URL)
 
 
 - the declaration of a method or constructor that accepts a parameter of a generic type:
 ```
-your exemplifying line from the Pair example here
+public Pair( T first, T second) 
 ```
 in [class](URL)
 
 
 - the declaration of a method that returns a value of a generic type:
 ```
-your exemplifying line from the Pair example here
+public T getFirst()
 ```
 in [class](URL)
